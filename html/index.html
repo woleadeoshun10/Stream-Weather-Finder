@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Find Twitch streams for your favorite games along with the current weather in your city."
+    />
+    <meta name="author" content="Adewole Adeoshun" />
+    <title>Twitch Streams + Weather</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        max-width: 600px;
+        margin: 50px auto;
+        padding: 20px;
+        background-color: #f5f5f5;
+      }
+      h1 {
+        color: #6441a5;
+        text-align: center;
+      }
+      form {
+        background: white;
+        padding: 30px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+      label {
+        display: block;
+        margin-bottom: 8px;
+        font-weight: bold;
+        color: #333;
+      }
+      input {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        box-sizing: border-box;
+        font-size: 14px;
+      }
+      button {
+        width: 100%;
+        padding: 12px;
+        background-color: #6441a5;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        font-size: 16px;
+        cursor: pointer;
+        font-weight: bold;
+      }
+      button:hover {
+        background-color: #503080;
+      }
+      .example {
+        font-size: 12px;
+        color: #666;
+        margin-top: -15px;
+        margin-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>🎮 Stream Weather Finder</h1>
+    <form action="/search" method="GET">
+      <label for="game">Game Name:</label>
+      <input
+        type="text"
+        id="game"
+        name="game"
+        placeholder="e.g., Call of Duty"
+        required
+      />
+      <div class="example">
+        Popular: Call of Duty, League of Legends, Valorant, Minecraft
+      </div>
+
+      <label for="city">City Name:</label>
+      <input
+        type="text"
+        id="city"
+        name="city"
+        placeholder="e.g., Seoul"
+        required
+      />
+      <div class="example">Examples: Seoul, London, New York, Tokyo</div>
+
+      <button type="submit">Search Streams & Weather</button>
+    </form>
+  </body>
+</html>
