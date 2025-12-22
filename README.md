@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Twitch Streams & Weather Mashup
 
 A Node.js web application that combines Twitch live streams with real-time weather data. Search for any game on Twitch and see the top 5 live streams alongside current weather conditions for any city.
@@ -148,7 +147,3 @@ The application handles:
 ## License
 
 This project is for educational purposes as part of CSCI 355 coursework.
-=======
-# Stream-Weather-Finder
-CSCI 355 Final Project – Synchronous API mashup using Twitch and OpenWeatherMap
->>>>>>> 603184e45e928c783d80a9477d3eb4f5e6da8444
