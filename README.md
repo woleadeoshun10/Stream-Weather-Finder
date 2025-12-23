@@ -2,6 +2,8 @@
 
 A Node.js web application that combines Twitch live streams with real-time weather data. Search for any game on Twitch and see the top 5 live streams alongside current weather conditions for any city.
 
+![Node.js](https://img.shields.io/badge/Node.js-21.x-339933?style=for-the-badge&logo=node.js&logoColor=white)
+
 ## Project Information
 
 **Course:** CSCI 355 (Saturday)  
