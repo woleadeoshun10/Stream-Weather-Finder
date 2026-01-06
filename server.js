@@ -1,7 +1,7 @@
 /*
 Name: Adewole Adeoshun
 Course: CSCI 355 (Sat)
-Instructor:   Raymond Law
+Instructor: Raymond Law
 ID: 24081306
 Final Project
 */
