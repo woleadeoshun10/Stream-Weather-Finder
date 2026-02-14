@@ -1,9 +1,5 @@
 /*
-Name: Adewole Adeoshun
-Course: CSCI 355 (Sat)
-Instructor: Raymond Law
-ID: 24081306
-Final Project
+Project
 */
 
 const fs = require("fs"); // file system module
