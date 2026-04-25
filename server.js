@@ -2,7 +2,7 @@
 Project
 */
 
-const fs  = require("fs"); // file system module
+const f  = require("fs"); // file system module
 const http = require("http"); // http module - to create web server
 const https = require("https"); // https module - to make requets to external APIs
 
